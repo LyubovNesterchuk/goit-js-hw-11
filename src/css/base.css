@@ -90,14 +90,16 @@ button:hover {
   animation: spin 1s linear infinite;
   margin: 20px auto;
 }
-.loader.is-visible {
-  display: block;
-}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
   }
 }
+.loader.is-visible {
+  display: block;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
