@@ -56,7 +56,11 @@ function handleSubmit(event) {
         position: 'topRight',
       });
       console.error('Error fetching images:', error);
-    });
+    })
+    .finally(() => {
+      input.value = "";
+  })
+    
 }
 
 

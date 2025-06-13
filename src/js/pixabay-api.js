@@ -42,7 +42,7 @@ export function getImagesByQuery(query) {
 })
 .catch(error => {
     console.error('Error message:', error.message);
-});
+})
 }
 
 getImagesByQuery('cat').then(data => {
